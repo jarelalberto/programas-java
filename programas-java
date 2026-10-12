@@ -17,7 +17,7 @@ public class Main {
         double[][] L = new double[n][n];
         double[][] U = new double[n][n];
 
-        // Inicializar la diagonal de L con unos
+        
         for (int i = 0; i < n; i++) {
             L[i][i] = 1;
         }
